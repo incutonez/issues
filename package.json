@@ -1,0 +1,28 @@
+{
+  "name": "@incutonez/issues",
+  "version": "1.0.0",
+  "description": "Repo to throw any GH issues that need to be reported",
+  "main": "index.js",
+  "scripts": {
+    "explode": "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i",
+    "update:deps": "node ./updateDependencies.js",
+    "update:versions": "node ./updateVersions.js",
+    "prepare": "npx husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incutonez/issues.git"
+  },
+  "author": "incutonez",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  },
+  "workspaces": [
+    "packages/tailwind-theme/*"
+  ],
+  "devDependencies": {
+    "husky": "latest"
+  }
+}

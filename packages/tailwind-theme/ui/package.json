@@ -1,0 +1,37 @@
+{
+  "name": "@incutonez/ui",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@incutonez/theme": "file:../theme",
+    "@material-symbols/svg-400": "latest",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@incutonez/eslint-plugin": "latest",
+    "@stylistic/eslint-plugin-ts": "latest",
+    "@tailwindcss/vite": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-vue": "latest",
+    "globals": "latest",
+    "tailwindcss": "latest",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "latest",
+    "vite": "^6.2.0",
+    "vite-svg-loader": "latest",
+    "vue-tsc": "^2.2.4"
+  }
+}

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme static {
+    --color-select-200: var(--color-sky-200);
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@incutonez/theme",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.prod.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tailwindcss-primeui": "^0.5.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@stylistic/eslint-plugin-ts": "latest",
+    "@tailwindcss/vite": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "latest",
+    "eslint-plugin-simple-import-sort": "latest",
+    "eslint-plugin-vue": "latest",
+    "globals": "latest",
+    "tailwindcss": "latest",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "latest",
+    "vite": "^6.2.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.5.3",
+    "vue-tsc": "^2.2.4"
+  },
+  "exports": {
+    "./main.css": "./dist/main.css",
+    "./theme.css": "./src/main.css"
+  }
+}

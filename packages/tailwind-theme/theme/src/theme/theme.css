@@ -1,0 +1,7 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(".");
+@layer theme, base, components, utilities;
+
+@theme static {
+    --color-select-200: var(--color-sky-200);
+}

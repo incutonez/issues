@@ -3,6 +3,6 @@
 
 <template>
 	<div class="flex">
-		<span class="bg-select-200">Testing</span>
+		<span class="bg-select-200">Consuming App</span>
 	</div>
 </template>

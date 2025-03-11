@@ -23,7 +23,7 @@ export default {
 		cssMinify: false,
 		lib: {
 			entry: {
-				theme: "src/theme.css",
+				theme: "src/theme/theme.css",
 			},
 			formats: ["es"],
 		},

@@ -1,6 +1,6 @@
 /**
  * This works if I reference the src/main.css file, but if it gets built and included in the dist, it does not work.
  */
-@import "@incutonez/theme/main.css";
+@import "@incutonez/theme/theme.css";
 @import "tailwindcss";
 @source "../node_modules/@incutonez/theme";

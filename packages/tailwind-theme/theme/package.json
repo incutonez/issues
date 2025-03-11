@@ -33,7 +33,6 @@
     "vue-tsc": "^2.2.4"
   },
   "exports": {
-    "./main.css": "./dist/main.css",
-    "./theme.css": "./src/main.css"
+    "./theme.css": "./dist/theme.css"
   }
 }

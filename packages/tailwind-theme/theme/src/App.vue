@@ -3,6 +3,6 @@
 
 <template>
 	<div>
-		<span>Testing</span>
+		<span class="bg-select-200">Testing</span>
 	</div>
 </template>

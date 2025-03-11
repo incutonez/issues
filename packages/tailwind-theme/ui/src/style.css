@@ -3,3 +3,4 @@
  */
 @import "@incutonez/theme/main.css";
 @import "tailwindcss";
+@source "../node_modules/@incutonez/theme";
